@@ -77,7 +77,8 @@ get_download_url() {
 
   if [ "$install_type" == "version" ]
   then
-    echo "https://dl.bintray.com/elmlang/elm-platform/$version/$(get_platform).tar.gz"
+    echo "https://itsgreggreg.github.io/elm-versions.org/releases/$version/$(get_platform).tar.gz"
+    #echo "https://dl.bintray.com/elmlang/elm-platform/$version/$(get_platform).tar.gz"
   else
     echo "asdf-elm: Can only install versioned binaries."
     echo "If you want to install another version from source, read:"
