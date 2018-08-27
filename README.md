@@ -3,6 +3,8 @@
 
 [Elm](http://elm-lang.org) plugin for [asdf](https://github.com/asdf-vm/asdf) version manager
 
+Gets releases from here: https://itsgreggreg.github.io/elm-versions.org/releases/
+
 ## Install
 
 ```shell
